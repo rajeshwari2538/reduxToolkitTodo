@@ -4,7 +4,7 @@ import Todos from "./components/Todos";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-slate-950 flex flex-col w-[100%] h-[100vh]">
       <AddTodo />
       <Todos />
     </div>
